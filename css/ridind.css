@@ -1,0 +1,45 @@
+body{
+	width: 65%;
+	height: 35%;
+	padding: 3px;
+	font-size: 22px;
+	background-color: #BBDEFB;
+}
+body :hover{
+		filter:grayscale(100%);
+}
+ul{
+	height: 90%;
+	width: 100%;
+	border: 3px black;	
+	list-style: none;
+	background: rgba(5,77,97,1);
+	background: -moz-linear-gradient(-45deg, rgba(5,77,97,1) 0%, rgba(7,68,85,1) 41%, rgba(0,0,15,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(5,77,97,1)), color-stop(41%, rgba(7,68,85,1)), color-stop(100%, rgba(0,0,15,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(5,77,97,1) 0%, rgba(7,68,85,1) 41%, rgba(0,0,15,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(5,77,97,1) 0%, rgba(7,68,85,1) 41%, rgba(0,0,15,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(5,77,97,1) 0%, rgba(7,68,85,1) 41%, rgba(0,0,15,1) 100%);
+	background: linear-gradient(135deg, rgba(5,77,97,1) 0%, rgba(7,68,85,1) 41%, rgba(0,0,15,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#054d61', endColorstr='#00000f', GradientType=1 );
+
+}
+ul :hover{
+			filter:sepia(100%);
+			transform-origin: right;
+			z-index: 1;
+			position: initial;
+			font-size-adjust: inherit;
+			font-size: 32px;
+
+}
+
+.name
+{
+	color: #D4E6F1;
+	position: absolute;
+	text-align: right;
+	font-family: 'Caesar Dressing', cursive;
+	font-size: 28px;
+	text-shadow: -3px 0 black, 0 2px black, 2px 0 black, 0 -3px black;
+
+}
